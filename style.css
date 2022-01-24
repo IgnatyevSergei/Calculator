@@ -1,0 +1,69 @@
+.wrapper{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-top: 150px;
+
+}
+.display{
+    width: 90%;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+}
+.wrapperNubers{
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-around;
+    margin-top: 10px;
+   
+    
+}
+.rowNumbers{
+    width: 100%;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+button{
+    width: 70px;
+    height: 80px;
+    
+}
+.equals{
+    width: 70px;
+    height: 175px;
+}
+.zero{
+    width: 170px;
+}
+.rowNumbersDown{
+    flex-wrap: wrap;
+display: flex;
+width: 170px;
+justify-content: space-between;
+}
+.numberAndDot{
+flex-wrap: wrap;
+display: flex;
+width: 70px;
+height: 190px;
+}
+.rowNumbersEnd{
+    width: 100%;
+    height: 190px;
+    flex-wrap: wrap;
+display: flex;
+justify-content: space-around
+}
