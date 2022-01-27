@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Калькулятор</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div class="markup">
       <div class="wrapper">
-        <input type="text" class="display" />
+        <input type="text" class="display" disabled value="" />
         <div class="wrapperNubers">
           <div class="rowNumbers">
             <button class="clearButton">CE</button>
@@ -34,16 +34,19 @@
             <div class="rowNumbersDown">
               <button class="numbersButton">1</button>
               <button class="numbersButton">2</button>
-              <button class="zero">0</button>
+              <button class="zero numbersButton">0</button>
             </div>
             <div class="numberAndDot">
               <button class="numbersButton">3</button>
-              <button class="numbersButton">.</button>
+              <button class="decimal">.</button>
             </div>
             <button class="equals">=</button>
           </div>
         </div>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
+
+

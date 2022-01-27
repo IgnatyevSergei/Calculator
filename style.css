@@ -34,6 +34,7 @@
   align-content: space-around;
   margin-top: 10px;
 }
+
 .rowNumbers {
   width: 100%;
   display: flex;
@@ -58,13 +59,9 @@ button {
 }
 .zero {
   width: 170px;
-  font-size: x-large;
-  background-color: #afeeee;
+ 
 }
-.zero:hover {
-  background-color: #fffacd;
-  font-size: xx-large;
-}
+
 .rowNumbersDown {
   flex-wrap: wrap;
   display: flex;
@@ -91,6 +88,7 @@ button {
 .clearButton:hover {
   background-color: red;
   font-size: xx-large;
+  cursor: pointer;
 }
 .functionButton {
   background-color: #c0c0c0;
@@ -98,6 +96,7 @@ button {
 .functionButton:hover {
   background-color: #ffa07a;
   font-size: xx-large;
+  cursor: pointer;
 }
 .numbersButton {
   background-color: #afeeee;
@@ -105,4 +104,14 @@ button {
 .numbersButton:hover {
   background-color: #fffacd;
   font-size: xx-large;
+  cursor: pointer;
 }
+.decimal{
+  background-color: #afeeee;
+}
+.decimal:hover{
+  background-color: #fffacd;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
